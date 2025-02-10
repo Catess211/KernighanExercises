@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 #define RESULT_LENGTH 33
-
+#if 0
 void swap(char *buffer, int start, int end)
 {
 	
@@ -35,6 +35,7 @@ void my_itoa(int number, int base, char *result)
 	*result = '\0';
 }
 
+
 int main()
 {
 	char *buffer = (char*)malloc(34 * sizeof(char));
@@ -59,3 +60,4 @@ int main()
 
 	return 0;
 }
+#endif
